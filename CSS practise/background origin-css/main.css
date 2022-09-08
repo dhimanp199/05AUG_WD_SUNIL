@@ -1,0 +1,38 @@
+.box {
+    width: 640px;
+    height: 400px;
+    margin: 50px auto;
+    color: #ff0;
+    border: 30px dotted #ff0;
+    padding: 30px;
+    background-image: url(./pexels-pixabay-60597.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: padding-box;
+}
+
+.a {
+    width: 640px;
+    height: 400px;
+    margin: 50px auto;
+    color: #ff0;
+    border: 30px solid #ff0;
+    padding: 30px;
+    background-image: url(./pexels-pixabay-60597.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+}
+
+.b {
+    width: 640px;
+    height: 400px;
+    margin: 50px auto;
+    color: #ff0;
+    border: 30px solid #ff0;
+    padding: 30px;
+    background-image: url(./pexels-pixabay-60597.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+}

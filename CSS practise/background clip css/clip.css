@@ -1,0 +1,46 @@
+.box {
+    width: 640px;
+    height: 350px;
+    margin: 50px auto;
+    color: red;
+    border: 30px dotted red;
+    padding: 30px;
+    background-color: yellow;
+    background-clip: content-box;
+}
+
+.box p {
+    margin: 20px 0px 0px 0px;
+    float: left;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.a {
+    width: 640px;
+    height: 350px;
+    margin: 50px auto;
+    color: red;
+    border: 30px dotted red;
+    padding: 30px;
+    background-color: yellow;
+    background-clip: border-box;
+}
+
+.a p {
+    margin: 20px 0px 0px 0px;
+    float: left;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.b {
+    width: 640px;
+    height: 350px;
+    margin: 50px auto;
+    color: red;
+    border: 30px dotted red;
+    padding: 30px;
+    background-color: yellow;
+    background-clip: padding-box;
+}
