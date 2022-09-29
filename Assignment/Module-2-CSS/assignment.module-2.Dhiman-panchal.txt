@@ -1,0 +1,165 @@
+Assignment Submitted By :-
+NAME - Dhiman Panchal.
+Course - FRONT  END  DEVELOPMENT
+
+Module : 2 ( CSS and CSS 3)
+
+                                                                                                       Q .1 What are the benefits of using CSS?
+                                                                                                                                 ans.
+
+1. CSS plays an important role, by using CSS you simply got to specify a repeated style for element once & use it multiple times as because CSS will automatically apply the required styles.
+2. The main advantage of CSS is that style is applied consistently across variety of sites. One instruction can control several areas which is advantageous.
+3. Web designers needs to use few lines of programming for every page improving site speed.
+4. Cascading sheet not only simplifies website development, but also simplifies the maintenance as a change of one line of code affects the whole web site and maintenance time.
+5. It is less complex therefore the effort are significantly reduced.
+6. It helps to form spontaneous and consistent changes.
+7. CSS changes are device friendly. With people employing a batch of various range of smart devices to access websites over the web, there’s a requirement for responsive web design.
+8. It has the power for re-positioning. It helps us to determine the changes within the position of web elements who are there on the page.
+9. These bandwidth savings are substantial figures of insignificant tags that are indistinct from a mess of pages.
+10. Easy for the user to customize the online page
+11. It reduces the file transfer size.
+
+                                                                                                      Q .2 What are the disadvantages of CSS?
+                                                                                                                                  ans.
+
+1. CSS, CSS 1 up to CSS3, result in creating of confusion among  web browsers.
+2. With CSS, what works with one browser might not always work with another. The web developers need to test for compatibility, running the program across multiple browsers.
+3. There exists a scarcity of security.
+4. After making the changes we need to confirm the compatibility if they appear. The similar change affects on all the browsers.
+5. The programing language world is complicated for non-developers and beginners. Different levels of CSS i.e. CSS, CSS 2, CSS 3 are often quite confusing.
+6. Browser compatibility (some styles sheet are supported and some are not).
+7. CSS works differently on different browsers. IE and Opera supports CSS as different logic.
+8. There might be cross-browser issues while using CSS.
+9. There are multiple levels which creates confusion for non-developers and beginners.
+
+                                                                                                     Q .3  What is the difference between CSS2 and CSS3?
+                                                                                                                                 ans.
+
+1. CSS3 is split into many various documents known as Modules. each module adds new capability or extends options outlined in CSS2 over conserving backward compatibility. Work on CSS3 started around the time of publication of the initial CSS2 recommendation.
+2. The CSS3 version supports more browsers than CSS2.
+3. CSS3 introduces several new selectors. Those new selectors square measure largely in an exceeding type of pseudo-elements and pseudo-categories.
+4. The new addition of General relation Combinator will be wont to match relation parts of a given part through diacritic (~) combinator.
+5. CSS3 introduces several properties attended with new values and units. It facilitates styling of backgrounds, borders, boxes, etc…, that permits the USA to stay most of the styling at intervals the computer network and HTML standards and our document, while not a necessity for all those proprietary third-party package packages.
+6. New values and new units square measure introduced to support all those new properties. for example, Angle units deg, grad, rad, and switch or Time units s and ms.
+
+                                                                                                   Q .4 Name a few CSS style components 
+                                                                                                                                  ans.
+
+The components of css style are:
+1)Selecter:HTML element name, id name, class name.
+2)Property:It's like an attribute such as background color,font-size,position,text-align,color,border etc.
+3)Values:which defines property or values allocate for properties.
+ 
+                                                                                                  Q .5 What do you understand by CSS opacity? 
+                                                                                                                                  ans.
+
+The CSS opacity property is used to specify the transparency of an element. In simple word, you can say that it specifies the clarity of the image.
+In technical terms, Opacity is defined as degree in which light is allowed to travel through an object.
+
+                                                                                                  Q .6  How can the background color of an element be changed?
+                                                                                                                                  ans.
+
+You can change the background color of an HTML element using the background-color CSS property and giving it a value of a color.
+p {
+  background-color: pink;
+}
+
+With this code, the paragraphs are given a pink background.
+For example, this code will make all paragraph elements in your HTML file have a pink background because the background-color property has a value of pink.
+
+
+                                                                                                  Q .7   How can image repetition of the backup be controlled?
+                                                                                                                                  ans.
+To control the repetition of an image in the background, use the background-repeat property. You can use no-repeat value for the background-repeat property if you do not want to repeat an image, in this case, the image will display only once
+                       
+                                                                                                  Q .8  What is the use of the background-position property ?
+                                                                                                                                  ans.
+
+The background-position property in CSS is mainly used to sets the initial position for the background image ie., it is used to set an image at a certain position. The position that is relative to the positioning layer, can be set by using the background-origin property.
+
+Syntax:
+
+background-position: value;
+     
+                                                                                                 Q .9 Which property controls the image scroll in the background?
+                                                                                                                                   ans.
+
+The background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed.
+
+                                                                                                 Q .10 Why should background and color be use as separate properties?
+                                                                                                                                    ans.
+
+ It enhances the legibility of style sheets. The background property is a complex property in CSS, and if it is combined with color, the complexity will further increase.
+
+                                                                                                Q .11 How to center block elements using CSS1?
+                                                                                                                                   ans.
+
+To horizontally center a block element (like <div>), use margin: auto; Setting the width of the element will prevent it from stretching out to the edges of its container.
+
+                                                                                                Q .13 What are the ways to integrate CSS as a web page?
+                                                                                                                                   ans.
+
+CSS can be added to HTML documents in 3 ways: Inline - by using the style attribute inside HTML elements. Internal - by using a <style> element in the <head> section. External - by using a <link> element to link to an external CSS file.
+
+                                                                                                Q .14  What is embedded style sheets?
+                                                                                                                                   ans.
+  
+It allows you to define styles for a particular HTML document as a whole in one place. This is done by embedding the <style></style> tags containing the CSS properties in the head of your documen
+                                                                                                Q .15 What are the external style sheets?
+                                                                                                                                   ans.
+
+An external style sheet is a separate CSS file that can be accessed by creating a link within the head section of the webpage. Multiple webpages can use the same link to access the stylesheet. The link to an external style sheet is placed within the head section of the page.
+ 
+                                                                                                Q .16  What are the advantages and disadvantages of using external style sheets?
+                                                                                                                                  ans.
+Advantages.
+
+1) The style of a few documents can be controlled from the site by utilizing them.
+2) Multiple HTML elements can have numerous documents, where classes can be made.
+3) To assemble styles in complex circumstances, selector and grouping strategies are utilized.
+
+Disadvantages.
+1) The additional download is expected to import documents having style information.
+2) To render the documents, the outer template ought to be stacked.
+3) Not practical for small style definitions.
+
+                                                                                               Q .17 What is the meaning ofthe CSS selector?
+                                                                                                                                  ans.
+
+A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them.
+
+                                                                                              Q .18 What are the media types allowed by CSS?
+                                                                                                                                  ans.
+
+continuous or paged.
+visual, audio, speech, or tactile.
+grid (for character grid devices), or bitmap.
+interactive (for devices that allow user interaction), or static (for those that do not).
+all (includes all media types
+
+                                                                                              Q .19 What is the rule set?
+                                                                                                                  ans.
+
+A CSS ruleset is various affirmations to various pieces or elements of the document. The objective is to apply a bunch of properties for certain distinct qualities to a solitary, or a particular arrangement of components in the connected HTML page. 
+
+                                                                  
+ 
+
+
+
+
+
+                                                                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
