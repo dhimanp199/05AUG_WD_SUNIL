@@ -1,0 +1,12 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face  {
+    font-family:Russo_One;
+    src: url(./font/Russo_One/RussoOne-Regular.ttf);
+}
+p{
+    font-family:Russo_One;
+}
