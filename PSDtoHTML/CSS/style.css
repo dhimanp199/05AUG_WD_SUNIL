@@ -1,12 +1,64 @@
 *{
-    margin:0 ;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
 }
-@font-face  {
-    font-family:Russo_One;
-    src: url(./font/Russo_One/RussoOne-Regular.ttf);
+a{
+    text-decoration: none;
 }
-p{
-    font-family:Russo_One;
+@font-face {
+    font-family:abc;
+    src: url(./font/Montserrat-VariableFont_wght.ttf)
+}
+
+.bg{
+    background-color: #ffe001;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.clippath{
+    width: 100%;
+    background-color: #ebe9ac;
+    height: 100vh;
+    clip-path: polygon(68% 0, 100% 0, 100% 100%, 45% 100%);
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+.row{
+    display: flex;
+    width: 100%;
+}
+.col2{
+    margin-left: auto;
+    width: 120px;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+.r-info{
+    font-size: 10px;
+    font-family: abc;
+    font-weight: 900;
+}
+.r-info :nth-child(2){
+    font-size: 18px;
+    font-weight: 900;
+}
+.row2 ul {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+.row2 ul li a{
+     font-size: 12px;
+     font-weight: 700;
+     color: black;
+     margin-left: 45px;
+     letter-spacing: 3px;
+     font-family: abc;
 }
