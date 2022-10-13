@@ -1,0 +1,248 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../psdtohtml1/font/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:gabelisa ;
+    src: url(../psdtohtml1/font/gabelisa/Gabelisa\ Font\ by\ Keithzo\ \(7NTypes\).otf);
+}
+@font-face {
+    font-family:Fredericka ;
+    src: url(../psdtohtml1/font/Fredericka_the_Great/FrederickatheGreat-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 100%;
+}
+
+.backgruond {
+    background-color: #ffe001;
+    width: 100%;
+    /* height: 100vh; */
+    height: 818px;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.clip-path {
+    width: 100%;
+    /* height: 100vh; */
+    height: 818px;
+    clip-path: polygon(76% 0, 100% 0, 100% 100%, 60% 100%);
+    background-color: #ebe9ac;
+
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.m-aut {
+    margin-left: auto;
+}
+.col2{
+    width: 125px;
+    align-items: center;
+}
+.r-info{
+    display: block;
+    font-size: 10px;
+    font-weight:900;
+    font-family: Montserrat;
+}
+.r-info :nth-child(2){
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.row2 ul li {
+    display: inline-block;
+    
+}
+.row2 ul li a{
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+    padding:15px;
+    letter-spacing: 3px;
+    font-family:Montserrat;
+}
+
+.u-hungry{
+    width: 580px;
+    text-align: center;
+}
+.u-hungry span{
+    font-family:gabelisa ;
+    font-size: 60px;
+    margin: 20px 0px; 
+}
+.u-hungry img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.u-hungry :nth-child(5) {
+    font-size: 27px;
+    font-family:Montserrat;
+    font-weight: 700;
+}
+.u-hungry h3 {
+    font-family:Fredericka ;
+    font-size: 80px;
+    color: #000000;
+    font-weight: 400;
+}
+.poi-rel{
+    position: relative;
+}
+.poi-ab{
+    position: absolute;
+}
+.up-case{
+    text-transform: uppercase;
+}
+hr{
+    border: 0;
+    height: 1px;
+    width: 80%;
+    background: radial-gradient(black 50%, white 98%);
+    margin: 0 auto; 
+}
+.fit-contant{
+    width: fit-content;
+    margin: 0 auto;
+}
+.th-mon{
+    font-size: 19px !important;
+    font-family:Fredericka !important ;
+    font-weight: 400;
+    width: 150px;
+    margin: 20px 0px;
+}
+
+.number span{
+    font-size: 57px ;
+    font-family:Fredericka !important;
+    font-weight: 400;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    border: 1px solid;
+    color: #000000;
+    font-size: 21px;
+    font-weight: 900;
+    font-family:Montserrat;
+    margin-top: 50px;
+}
+.header-img{
+    width: 700px;
+}
+.img-w-h-l{
+    width: 100px;
+    height: 100px;
+    bottom: 30px;
+    left: -80px;
+}
+.img-w-h-r{
+    width: 100px;
+    height: 100px;
+    bottom: 90px;
+    right: 35px;
+    transform: rotate(10deg);    
+}
+.spaghetti {
+    width:auto !important;
+    height:auto !important;
+    left: -450px;
+    bottom: -380px;
+    object-fit: contain;
+}
+
+.sec2{
+    width: 100%;
+    height: 120vh;
+}
+.back-line{
+    width: 1510px;
+    height: 139px;
+    background-color: #e8e6a9;
+    z-index: -1;
+    left: -115px;
+    top: 350px;
+    bottom: 350px;
+    /* right: -180px; */
+}
+.cho-en{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+}
+.cho-en h3{
+    font-size: 50px;
+    font-family:Fredericka;
+    line-height: 38px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.cho-en span{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.food-item{
+    width: 425px;
+    height: 500px;
+    font-family: Montserrat;
+    text-align: center;
+}
+.food-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.food-item h5{
+    font-size: 21px;
+    line-height: 38px;
+    font-weight: 900;
+}
+.food-item span{
+    display: block;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+.food-item a{
+    background-color: #ffe001;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 17px;
+    /* line-height: 38px; */
+    font-weight: 700;
+    margin-top: 20px;
+}
