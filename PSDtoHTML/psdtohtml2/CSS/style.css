@@ -465,9 +465,10 @@ a {
 .sec2 {
     width: 100%;
     height: 60vh;
+    display: flex;
+    justify-content: center;
     background-color: #4012cb;
 }
-
 .col5 h2 {
     font-size: 63px;
     color: #f7f0e8;
@@ -502,4 +503,9 @@ input {
     border-radius: 30px;
     color: #4012cb;
     margin: 10px 8px;
+    font-size: 25px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    font-family: ibm;
+    text-align: center;
 }
