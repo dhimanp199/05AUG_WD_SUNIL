@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #f7f0e8;
+}
 a {
     text-decoration: none;
 }
@@ -397,6 +399,7 @@ a {
     text-align: center;
     padding: 15px 50px;
     margin: 30px 0px;
+    border: 1px solid white;
     border-radius: 5px;
 }
 
@@ -444,6 +447,7 @@ a {
 }
 
 .lm {
+    text-align: center;
     margin: 60px auto;
 }
 
@@ -464,11 +468,11 @@ a {
 
 .sec2 {
     width: 100%;
-    height: 60vh;
     display: flex;
     justify-content: center;
     background-color: #4012cb;
 }
+
 .col5 h2 {
     font-size: 63px;
     color: #f7f0e8;
@@ -508,4 +512,165 @@ input {
     font-weight: 700;
     font-family: ibm;
     text-align: center;
+}
+
+.vr-ln {
+    position: relative;
+    left: 7%;
+    border-left: 3px solid white;
+    height: 450px;
+    margin: 5px;
+    top: 0;
+}
+
+.v-ln {
+    position: relative;
+    right: 7%;
+    border-left: 3px solid white;
+    height: 450px;
+    margin: 5px;
+    top: 0;
+}
+
+.col6 {
+    margin: 50px;
+}
+
+.col6 p {
+    width: 850px;
+    font-size: 13px;
+    color: #000000;
+    font-weight: 300;
+    font-family: Lato;
+    text-align: center;
+}
+
+.col7 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #4012cb;
+}
+
+.col7 h4 {
+    width: 500px;
+    font-size: 64px;
+    line-height: 64px;
+    color: #f7f0e8;
+    font-weight: 700;
+    font-family: ibm;
+    margin: 30px 0px;
+}
+
+.pa {
+    margin: 30px 0px;
+}
+
+.pa p {
+    width: 400px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #f7f0e8;
+    font-weight: 300;
+    font-family: Lato;
+}
+
+.pa a {
+    display: inline-block;
+    border-radius: 5px;
+    border: 3px solid white;
+    color: white;
+    padding: 13px 40px;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+.row6{
+    width: 1280px;
+    margin: 0px auto;
+    display: flex;
+
+}
+.sec4{
+    margin: 50px 0px;
+}
+.sec4 img{
+    width: 100%;
+    filter: grayscale(1);
+}
+.faq{
+    width: 900px;
+
+}
+.faq h2{
+    font-size: 90px;
+line-height: 112px;
+color: #4012cb;
+font-weight: 700;
+font-family: ibm;
+}
+.faq span {
+    font-size: 24px;
+line-height: 25px;
+color: #4012cb;
+font-weight: 700;
+font-family: ibm;
+}
+.faq hr{
+    width: 85%;
+    height: 5px;
+    background-color:#4012cb;
+    margin: 15px 0px;
+}
+.faq pre{
+font-size: 17px;
+letter-spacing: 0px;
+font-weight: 400;
+font-family: "IBM Plex Sans";
+text-align: left;
+margin: 15px 0px;
+}
+.faq p{
+width: 500px;
+font-size: 13px;
+letter-spacing: 0px;
+color: #8f8e8e;
+font-weight: 400;
+font-family: ibm;
+/* text-align: left;  */
+margin: 40px 0px;
+}
+.i{
+    width: 380px;
+    margin: 90px 0px;
+}
+.i img{
+    display: block;
+    width: 100%;
+    filter: grayscale(1);
+    margin:40px 0px
+}
+.i hr{
+    width: 100%;
+    height: 5px;
+    background-color: #4012cb
+    ;
+    margin: 10px 0px;
+}
+.i p{
+    width: 385px;
+font-size: 13px;
+color: #000000;
+font-weight: 300;
+font-family: lato;
+text-align: left;
+}
+
+.i a {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+    padding: 13px 40px;
+    font-weight: 900;
+    margin: 20px 0px;
 }
