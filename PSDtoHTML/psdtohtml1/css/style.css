@@ -1,0 +1,569 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: gabelisa;
+    src: url(../font/gabelisa/Gabelisa\ Font\ by\ Keithzo\ \(7NTypes\).otf);
+}
+
+@font-face {
+    font-family: Fredericka;
+    src: url(../font/Fredericka_the_Great/FrederickatheGreat-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+img {
+    width: 100%;
+}
+
+.backgruond {
+    background-color: #ffe001;
+    width: 100%;
+    /* height: 100vh; */
+    height: 818px;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.clip-path {
+    width: 100%;
+    /* height: 100vh; */
+    height: 818px;
+    clip-path: polygon(76% 0, 100% 0, 100% 100%, 60% 100%);
+    background-color: #ebe9ac;
+
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+.m-aut {
+    margin-left: auto;
+}
+
+.col2 {
+    width: 125px;
+    align-items: center;
+}
+
+.r-info {
+    display: block;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: Montserrat;
+}
+
+.r-info :nth-child(2) {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.row2 ul li {
+    display: inline-block;
+
+}
+
+.row2 ul li a {
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+    padding: 15px;
+    letter-spacing: 3px;
+    font-family: Montserrat;
+}
+
+.u-hungry {
+    width: 580px;
+    text-align: center;
+}
+
+.u-hungry span {
+    font-family: gabelisa;
+    font-size: 60px;
+    margin: 20px 0px;
+}
+
+.u-hungry img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.u-hungry :nth-child(6) {
+    font-size: 27px;
+    font-family: Montserrat;
+    font-weight: 700;
+    display: block;
+}
+
+.u-hungry h3 {
+    font-family: Fredericka;
+    font-size: 80px;
+    color: #000000;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.poi-rel {
+    position: relative;
+}
+
+.poi-ab {
+    position: absolute;
+}
+
+.up-case {
+    text-transform: uppercase;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 80%;
+    background: radial-gradient(black 50%, white 98%);
+    margin: 0 auto;
+}
+
+.fit-contant {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.th-mon {
+    font-size: 19px !important;
+    font-family: Fredericka !important;
+    font-weight: 400;
+    width: 150px;
+    margin: 20px 0px;
+}
+
+.number span {
+    font-size: 57px;
+    font-family: Fredericka !important;
+    font-weight: 400;
+}
+
+.btn a{
+    display: inline-block;
+    padding: 10px 30px;
+    border: 1px solid;
+    font-size: 21px;
+    font-weight: 900;
+    font-family: Montserrat;
+    margin-top: 20px;
+}
+.btn a:hover {
+    background-color: #000000;
+    color: #ffe001;
+}
+
+.header-img {
+    width: 700px;
+}
+
+.img-w-h-l {
+    width: 100px;
+    height: 100px;
+    bottom: 30px;
+    left: -80px;
+}
+
+.img-w-h-r {
+    width: 100px;
+    height: 100px;
+    bottom: 90px;
+    right: 35px;
+    transform: rotate(10deg);
+}
+
+.spaghetti {
+    width: auto !important;
+    height: auto !important;
+    left: -450px;
+    bottom: -380px;
+    object-fit: contain;
+}
+
+.sec2 {
+    width: 100%;
+
+}
+
+.back-line {
+    width: 1510px;
+    height: 139px;
+    background-color: #e8e6a9;
+    z-index: -1;
+    left: -115px;
+    top: 250px;
+    bottom: 250px;
+    /* right: -180px; */
+}
+
+.cho-en {
+    width: 1000px;
+    margin: 50px auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.cho-en h3 {
+    font-size: 50px;
+    font-family: Fredericka;
+    line-height: 38px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.cho-en span {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.food-item {
+    width: 425px;
+    /* height: 500px; */
+    font-family: Montserrat;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.food-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.food-item h5 {
+    font-size: 21px;
+    line-height: 38px;
+    font-weight: 900;
+}
+
+.food-item span {
+    display: block;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+
+.food-item a {
+    background-color: #ffe001;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 17px;
+    /* line-height: 38px; */
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.col3 {
+    width: 1050px;
+    margin: 50px auto;
+    text-align: center;
+    color: #000000;
+}
+
+.col3 span {
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 46px;
+    font-weight: 700;
+    font-family: Montserrat;
+    margin: 10px 0px;
+}
+
+.col3 h3 {
+    font-size: 42px;
+    line-height: 46px;
+    font-weight: 400;
+    font-family: Fredericka;
+    margin: 10px 0px;
+}
+
+.col3 p {
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: Montserrat;
+    margin: 10px 0px;
+}
+
+.left {
+    width: 430px;
+    height: 100%;
+}
+
+.middle {
+    width: 650px;
+    height: 100%;
+    transform: scale(1.1);
+}
+
+.right {
+    width: 430px;
+    height: 100%;
+}
+
+.row3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.try-it-2day {
+    width: 150px;
+    top: 30px;
+    left: 50px;
+    font-family: Montserrat;
+    color: #ffffff;
+}
+
+.try-it-2day span {
+    display: inline-block;
+    font-size: 21px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.try-it-2day p {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.right-si-img {
+    margin: 0px 15px;
+}
+
+.mor-fun {
+    margin: 0px 0px 28px 0px;
+}
+
+.more-test {
+    width: 200px;
+    top: 10px;
+    left: 30px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.more-test span {
+    font-size: 20px;
+    line-height: 38px;
+
+}
+
+.more-test p {
+    font-size: 30px;
+    line-height: 38px;
+
+}
+
+.fresh {
+    margin: 28px 0px 0px 0px;
+}
+
+.chil {
+    width: 230px;
+    top: 10px;
+    left: 30px;
+    line-height: 38px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+
+.chil span {
+    font-size: 20px;
+}
+
+.chil p {
+    font-size: 30px;
+}
+
+.sec5 {
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+.reser {
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 46px;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+
+.book-yr-tic {
+    font-size: 50px;
+    letter-spacing: 3px;
+    line-height: 46px;
+    font-weight: 400;
+    font-family: Fredericka;
+    margin: 10px 0px;
+}
+
+.form {
+    margin: 30px 0px;
+}
+
+.form input {
+    font-size: 17px;
+    line-height: 46px;
+    color: #3d3d3d;
+    font-weight: 400;
+    font-family: Montserrat;
+    margin: 10px 20px;
+    padding: 0px 10px;
+}
+
+.form a {
+    font-size: 21px;
+    line-height: 46px;
+    color: #000000;
+    font-weight: 700;
+    font-family: Montserrat;
+    background-color: #ffe001;
+    padding: 13px 108px;
+}
+.form a:hover{
+    background-color: black;
+    color: #ffe001;
+    box-shadow: 2px 2px 5px black;
+
+}
+.fot-bg {
+    width: 100%;
+    background-image: url(../image/BG\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.f-logo {
+    margin: 30px 0px;
+}
+
+.f-logo img {
+    width: 200px;
+}
+
+.info {
+    justify-content: space-between;
+    color: #ffffff;
+    margin: 30px 0px 50px 0px;
+    /* flex-wrap: nowrap; */
+}
+
+.info p {
+    width: 450px;
+}
+
+.addres {
+    width: 500px;
+    /* flex-wrap: nowrap; */
+    margin: 50px 0px;
+}
+
+.addres i {
+    font-size: 28px;
+    color: #ffe001;
+    margin: 8px;
+}
+
+.addres p {
+    display: inline-block;
+    font-size: 17px;
+    line-height: 38px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+
+.jus-fy-con {
+    justify-content: space-between;
+    /* padding-bottom: 80px; */
+    color: #ffffff;
+}
+
+.copy-rig {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: Montserrat;
+}
+
+.social-media {
+    margin: 50px 0px;
+    transition: all 1s ease-in-out;
+}
+.social-media i:hover {
+    color:#ffe001;
+    transform: scale(1.2);
+}
+.social-media i {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 5px;
+}
+
+/* @media (min-width: 576px) {
+    .backgruond {
+        background-color: #ffe001;
+        width: 200%;
+        height: auto;
+        position: absolute;
+        z-index: -1;
+
+    }
+
+    .clip-path {
+        width: 100%;
+        height: 100vh;
+        height: 818px;
+        clip-path: polygon(76% 0, 100% 0, 100% 100%, 60% 100%);
+        background-color: #ebe9ac;
+
+    }
+    .container{
+        /* width: 200%; */
+    }
+
+} 
+
+@media (min-height: 768px) {}
+
+@media (min-height: 992px) {}
+
+@media (min-height: 1200px) {}
