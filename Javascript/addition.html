@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input type="text" name="inp-name" class="inp-class" id="inp-id"> -->
+    <input type="text" name="val1" class="inp-class" id="val1">
+    <input type="text" name="val2" class="inp-class" id="val2">
+    <button value="" onclick="btnclick(this)">Click</button>
+    <div id="dispdata"></div>
+    <script>
+        function btnclick() {
+            let a = document.getElementById("val1").value;
+            let b = document.getElementById("val2").value;
+            let sum = parseInt(a)+parseFloat(b);
+
+            document.getElementById("dispdata").innerText = sum
+        }
+    </script>
+</body>
+</html>
