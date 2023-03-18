@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #clock {
+        width: 50%;
+        /* height: 100vh; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 100px auto;
+        font-size: 100px;
+        background: linear-gradient(-90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        border: 1px solid black;
+        background-size: 400% 400%;
+        animation: gradient 13s ease infinite;
+        color: aliceblue;
+        font-weight: 550;
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+</style>
+
+<body>
+    <div id="clock">
+
+    </div>
+    <script>
+        // Get the clock display element from the HTML
+        const clockDisplay = document.querySelector("#clock");
+
+        // Function to update the clock display
+        function updateClock() {
+            // Get the current date and time
+            const currentDate = new Date();
+
+            // Get the hours, minutes, and seconds from the current date
+            const timeArray = [currentDate.getHours(), currentDate.getMinutes(), currentDate.getSeconds()];
+
+            // Format the hours, minutes, and seconds as strings with leading zeros
+            const formattedTime = timeArray.map(time => time.toString().padStart(2, "0")).join(":");
+
+            // Update the clock display with the formatted time
+            clockDisplay.innerHTML = formattedTime;
+        }
+
+        // Call the updateClock function every second
+        setInterval(updateClock, 1000);
+
+        // Initialize the clock display by calling the updateClock function once
+        updateClock();
+
+    </script>
+</body>
+
+</html>
